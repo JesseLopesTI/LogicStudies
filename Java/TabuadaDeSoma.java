@@ -32,7 +32,7 @@ public class TabuadaDeSoma {
           System.out.print("\n" + "A tabuada do número " + numero + " é:");
         }
 
-        for (int contador = 1; contador <= 10; contador++) {
+        for (int contador = 0; contador <= 10; contador++) {
           System.out.println("\n" + numero + " + " + contador + " = " + (numero + contador));
         }
 
