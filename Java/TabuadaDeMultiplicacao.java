@@ -19,7 +19,7 @@ public class TabuadaDeMultiplicacao {
         numero = scanner.nextInt();
 
         if (numero <= 10) {
-            System.out.println("\n" + "A tabuada do número " + numero + " é:");
+          System.out.println("\n" + "A tabuada do número " + numero + " é:");
         } else {
           while (numero > 10) {
             System.out.println("\n" + "Observação:");
