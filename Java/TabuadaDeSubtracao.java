@@ -26,7 +26,8 @@ public class TabuadaDeSubtracao {
             System.out.println("\n" + "Só é permitido um número entre 0 e 10. Tente novamente!");
             System.out.print("\n" + "Digite um número entre 0 e 10: ");
             numero = scanner.nextInt();
-            numero++;
+
+            numero = numero + 0;
           }
 
           System.out.print("\n" + "A tabuada do número " + numero + " é:");
