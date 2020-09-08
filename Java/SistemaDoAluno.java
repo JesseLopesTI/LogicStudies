@@ -35,8 +35,8 @@ public class SistemaDoAluno {
       System.out.print("\n" + "Digite a sua disciplina: ");
       disciplina = scanner.nextLine();
 
-      for(int i = 1; i <= 2; i++) {
-        System.out.print("\n" + "Digite a nota da avaliação " + i + ": ");
+      for(int contador = 1; contador <= 2; contador++) {
+        System.out.print("\n" + "Digite a nota da avaliação " + contador + ": ");
         notas = scanner.nextDouble();
         somaNotas = somaNotas + notas;
       }
