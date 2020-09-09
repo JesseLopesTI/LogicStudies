@@ -30,7 +30,7 @@ public class TabuadaDeSubtracao {
             numero = numero + 0;
           }
 
-          System.out.print("\n" + "A tabuada do número " + numero + " é:");
+          System.out.println("\n" + "A tabuada do número " + numero + " é:");
         }
 
         for (int contador = 0; contador <= 10; contador++) {
