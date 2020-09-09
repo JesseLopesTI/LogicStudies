@@ -6,13 +6,13 @@
 
 public class TabuadaDeSubtracaoCompleta {
 
-    public static void main(String[] args) {
-  
-      for (int unidade = 0; unidade <= 10; unidade++) {
-        System.out.println("\n" + "A tabuada do número " + unidade + " é:" + "\n");
-        for (int dezena = 0; dezena <= 10; dezena++) {
-          System.out.println(unidade + " - " + dezena + " = " + (unidade - dezena));
-        }
+  public static void main(String[] args) {
+
+    for (int unidade = 0; unidade <= 10; unidade++) {
+      System.out.println("\n" + "A tabuada do número " + unidade + " é:" + "\n");
+      for (int dezena = 0; dezena <= 10; dezena++) {
+        System.out.println(unidade + " - " + dezena + " = " + (unidade - dezena));
       }
     }
   }
+}
